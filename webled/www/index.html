@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<script type="text/javascript" src="zepto.min.js"></script>
+
+<script type="text/javascript">
+function ledon()
+{
+$('#content').load('/arduino/ledon');
+}
+function ledoff()
+{
+$('#content').load('/arduino/ledoff');
+}
+  
+  
+  function ledon2()
+{
+$('#content').load('/arduino/ledon2');
+}
+function ledoff2()
+{
+$('#content').load('/arduino/ledoff2');
+}
+
+    
+  function ledon3()
+{
+$('#content').load('/arduino/ledon3');
+}
+function ledoff3()
+{
+$('#content').load('/arduino/ledoff3');
+}
+  
+    
+  function ledon4()
+{
+$('#content').load('/arduino/ledon4');
+}
+function ledoff4()
+{
+$('#content').load('/arduino/ledoff4');
+}
+
+
+
+
+</script>
+
+
+
+	</head>
+
+	<body onload="setInterval(refresh, 2000);">
+		<span id="content"></span>
+      
+      <button onclick="ledon()">LED ON - 1</button> 
+     
+        <button onclick="ledoff()">LED OFF - 1</button>
+      </div><div>
+           <button onclick="ledon()">LED ON - 2</button> 
+      <button onclick="ledoff2()">LED OFF - 2</button>
+        </div><div>
+           <button onclick="ledon3()">LED ON - 3</button> 
+      <button onclick="ledoff3()">LED OFF - 3</button>
+        </div><div>
+  
+           <button onclick="ledon4()">LED ON - 4</button> 
+      <button onclick="ledoff4()">LED OFF - 4</button>
+	</body>
+</html>
+
